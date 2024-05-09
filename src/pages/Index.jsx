@@ -15,7 +15,7 @@ const Index = () => {
           <SimpleGrid columns={{ base: 2, md: 4 }} spacing={5}>
             {/* Example of a company logo and description */}
             <VStack>
-              <Image src="path/to/logo1.png" alt="Motorica" boxSize="100px" />
+              <Image src="/images/logo1.png" alt="Motorica" boxSize="100px" />
               <Text>Motorica</Text>
             </VStack>
             {/* Repeat for other companies */}
@@ -39,7 +39,7 @@ const Index = () => {
           </Flex>
         </Box>
         <Box textAlign="center" p={5}>
-          <Image src="path/to/footer-logo.png" alt="Best AI Website Maker" boxSize="50px" />
+          <Image src="/images/footer-logo.png" alt="Best AI Website Maker" boxSize="50px" />
         </Box>
       </VStack>
     </Container>
